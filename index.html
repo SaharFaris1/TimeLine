@@ -10,7 +10,7 @@
 </head>
 <body style="background-color: #ffffff; ">
 <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #000236;">
-    <div class="container-fluid">
+    <div class="container-fluid justify-content-evenly">
         <a class="navbar-brand" href="#">
             <img src="./img/logo.jpeg" alt="Logo" width="50%">
         </a>
@@ -24,28 +24,21 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link fs-2" href="profile.html" style="color: #8c3580;">Profile</a>
-                </li>
+            </ul>  
+           <div style="padding-right: 4%;">
+            <input id="searchInput" style="width: 20vw; height: 5vh;" type="text" class="form-control" placeholder="Search event">
+        </div>
+            <div class="d-flex gap-4" >
 
-               <li class="nav-item ">
-                <a class="nav-link fs-4" href="Signin.html" style="color: #fff;background-color: #8c3580; border-radius: 5px; ">Login</a>
-                </li>
-               <li class="nav-item ">
-                <a class="nav-link fs-4" href="signup.html" style="color: #fff;background-color: #8c3580; border-radius: 5%; "> Get Started</a>
-                </li>
-                
-            </ul>   
-    
+                <a class="nav-link fs-5" href="Signin.html" style="color: #fff;background-color: #8c3580; border-radius: 5px; width: 10vw; text-align: center; padding: 1%;  ">Login</a>
+             
+      
+                <a class="nav-link fs-5" href="signup.html" style="color: #fff;background-color: #8c3580; border-radius: 5px; width: 10vw; text-align: center; "> Get Started</a>
+               
+            </div>
 
-            <div class="d-flex gap-4">
-                <div class="form d-flex ">
-                   
-
-                    <i class="fa fa-search"></i>
-                    <input id="searchInput" style="width: 15vw; height: 5vh;" type="text" class="form-control" placeholder="Search event">
-                </div>
-                     </div>
                      <div id="userGreeting" class="fs-3 p-3" style="color: #8c3580;"></div>
-                
+              
         </div>
     </div>
 </nav>
@@ -55,6 +48,7 @@
 <br> <br> <br>
 <section>
     <div class="d-flex flex-column align-items-center justify-content-center">
+
         <p style="color: #000236; font-size: 5rem; font-weight: 600;">Video Games Timeline</p>
    <p class="fs-3" style="color: #000236; font-weight: 600;">Video games have evolved significantly, becoming a global phenomenon that captivates millions by blending art, technology, and storytelling.</p>
     </div>
@@ -146,7 +140,6 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="timeline-item">
                     <div class="card">
                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXCUy7OXIuTjyXlIFMFaeMdC33HdIUMyq9gg&s" class="card-img-top" alt="PlayStation">
@@ -213,7 +206,7 @@
     <div id="eventsContainer"></div>
 </section>
 
-    <footer style="background-color: #000236; color: #ffffff; padding: 20px; text-align: center;">
+    <footer style="background-color: #000236; color: #ffffff; padding: 20px; text-align: center; height: 10vh;">
         <div class="container">
             <ul style="list-style: none; padding: 0;">
                 <li style="display: inline; margin: 0 15px;">
