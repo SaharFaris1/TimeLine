@@ -22,23 +22,24 @@
             <form id="signupForm">
             
                     <label for="username" class="fs-4"> Full Name </label>
-                    <input type="text" placeholder="Full Name" required />
-                    <label for="username" class="fs-4"> Username </label>
-              <input id="username" type="text" placeholder="Username" required/>
+                    <input type="text" id="fullName" placeholder="Full Name" required />
+                    <label for="username" class="fs-4"> Email </label>
+              <input id="username" type="text" placeholder="Email" required/>
               <label for="password" class="fs-4"> Password </label>
               <input id="password" type="password" placeholder="Password" required />
               <label for="password" class="fs-4"> Confirm Password </label>
               <input id="confirmPassword" type="password" placeholder="Confirm Password" required />
-              <button style="background-color: #000236;">Sign up</button>
-            </form>
+              <button type="submit" class="button-signin" id="btn" style="width: 20vw; background-color: #000236;">Sign up</button>       
+                </form>
           </div>
-          <div class="pass">
+           <div class="pass">
             <div class="remmber">
               <input type="checkbox">
-              <label class="fs-5">I Agree to <span class="terms" style="color: #000236; font-style:italic;">Terms & Conditions</span></label>
+              <label class="fs-5">I Agree to <span class="terms" style="color: #000236; ">Terms & Conditions</span></label>
               </div>
 
           </div>
+         
           <br>
       
 <div class="Face-twit">
@@ -122,9 +123,9 @@
         </div>
         <div class="right">
           <div class="wrapper">
-            <p style="font-size: 6rem; color: #fff; font-weight: 600;">Vidoe Games Timeline </h1>
+            <p style="font-size: 6rem; color: #fff; font-weight: 600; text-align: center;">Vidoe Games Timeline </h1>
             <h2 style="color: #fff;">already have an account?</h2>
-          <a href="signup.css"><button class="border-2"  style="color: #000236; font-size: 2rem; background-color: #fff;">Log In</button></a>  
+          <a href="Signin.html"><button class="border-2"  style="color: #000236; font-size: 2rem; background-color: #fff;">Log In</button></a>  
           </div>
         </div>
       </div>
@@ -133,5 +134,6 @@
 
 
     <script src="signup.js"></script>
+    <script src="main.js"></script>
   </body>
 </html>

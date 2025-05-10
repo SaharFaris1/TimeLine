@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Details</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-..." crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOMg6h0w5Q1xK6xH4HAf9pHx1eSL6X5X5Jv6RY" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-..." crossorigin="anonymous">
+</head>
+<body style="background-color: #fff;">
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #000236;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="./img/logo.jpeg" alt="Logo" width="50%">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link fs-2" href="index.html" style="color: #8c3580;">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-2" href="#" style="color: #8c3580;">Profile</a>
+                    </li>
+                </ul>
+                <div id="userGreeting" class="fs-3 p-3" style="color: #8c3580;"></div>
+                <div class="d-flex gap-4">
+                   
+                      </div>
+                      <div id="userGreeting" class="fs-3 p-3" style="color: #8c3580;"></div>
+
+            </div>
+        </div>
+    </nav>
+    <div class="text-center ">
+        <h1 class="fs-2" style="color: #000236;"> Overview and Details</h1>
+    </div>
+    <section style="margin: 3%;">
+        <h1 style="color: #000236;">Pong</h1>
+        <div class="p-3 d-flex flex-column" >
+           
+        <img src="https://forum.godotengine.org/uploads/default/original/3X/f/d/fd2b94227cb6968d7850c45cd3ccaba661ca3732.gif" class="card-img-top" alt="Pong" style="width: 30%; height: 40%;">
+   <div>
+    <br>
+<ul class="fs-3" style="color: #000236;">
+ 
+    <li>Release Date: 1972</li>
+    <li>Developer: Atari</li>
+    <li>Genre: Sports (Table Tennis)</li>
+</ul>
+<p class="fs-3" style="color: #000236;">Pong is a landmark title in video gaming history, representing the transition from traditional games to electronic entertainment, and remains a nostalgic favorite for many gamers today.</p>
+
+   </div>
+    </div>
+    <section class="d-flex flex-column " id="commentsSection" style="color: #000236; ">
+        <p class="fs-1" style="font-weight: 600; text-decoration: underline;">Add Comments</p>
+        <form id="commentForm" style="gap: 4%;">
+            <p class="fs-4" style="font-weight: 600;">To add comments please Enter your Name & comment</p>
+            <label for="username" class="fs-4">  Name </label><br>
+            <input type="text" id="fullName" placeholder="  your Name" required style="width: 20vw;height: 4vh;"/><br><br>
+            <label for="commentInput" class="fs-4">Add a Comment:</label><br>
+
+            <textarea id="commentInput" required  style="width: 50vw;"></textarea><br>
+            <button type="submit" class="text-center my-4 " style="color: #fff; background-color: #8c3580;padding: 6px 20px;  width: 25vw;  " >Submit Comment</button>
+        </form>
+
+        <h1>Comments</h1>
+        <div id="commentsContainer">
+
+        
+        </div>
+    </section>
+
+
+
+    </section>
+
+    <footer style="background-color: #000236; color: #ffffff; padding: 20px; text-align: center;">
+        <div class="container">
+            <ul style="list-style: none; padding: 0;">
+                <li style="display: inline; margin: 0 15px;">
+                    <a href="privacy.html" style="color: #ffffff; text-decoration: none;">Privacy Policy</a>
+                </li>
+                <li style="display: inline; margin: 0 15px;">
+                    <a href="terms.html" style="color: #ffffff; text-decoration: none;">Terms of Service</a>
+                </li>
+                <li style="display: inline; margin: 0 15px;">
+                    <a href="contact.html" style="color: #ffffff; text-decoration: none;">Contact Us</a>
+                </li>
+            </ul>
+            <p>&copy; 2025 Vidoe Game Timeline . All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="detail.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-..." crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.min.js" integrity="sha384-..." crossorigin="anonymous"></script>
+</body>
+</html>

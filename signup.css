@@ -7,7 +7,7 @@
   .square {
     height: 100%;
     width: 100%;
-   background-image: url("bk.jpg");
+   background-image: url("./img/bk.jpg");
    background-repeat: no-repeat;
    background-size: cover;
     display: flex;
@@ -45,11 +45,6 @@ input[type="reset"] {
   cursor: pointer;
   outline: inherit;
 }
-
-
-
-
-
 .right {
   background-image: url("blog.png");
   width: 50%;
@@ -157,4 +152,15 @@ input[type=checkbox]{
   button:hover{
     background-color: #55050561;
 
+  }
+  .button-signin{
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+    border-radius: 10px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-size: 1rem;
   }
